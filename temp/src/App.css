@@ -1,0 +1,129 @@
+/* App.css */
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+
+
+
+
+.App
+{
+  padding:30%;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #e50000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color  : #e50000;
+}
+
+.slider-container {
+  margin-bottom: 20px;
+}
+
+.react-date-range-wrapper {
+  width: 100%;
+}
+
+.react-date-range__calendar {
+  width: 100%;
+  max-width: 100%;
+}
+
+.react-date-range__calendar .rdrDateDisplayItem {
+  font-size: 14px;
+}
+
+.react-date-range__calendar .rdrDefinedRangesWrapper {
+  display: none;
+}
+
+.react-date-range__calendar .rdrMonthAndYearWrapper {
+  margin-bottom: 10px;
+}
+
+.react-date-range__calendar .rdrDayPicker {
+  width: 100%;
+  max-width: 100%;
+}
+
+.react-date-range__calendar .rdrDateDisplayItem {
+  font-size: 14px;
+}
+
+.react-date-range__calendar .rdrDay {
+  font-size: 14px;
+}
+
+.react-date-range__calendar .rdrDayNumber {
+  font-size: 14px;
+}
+
+/* App.css */
+
+/* Style for the amenities section */
+.amenities {
+  margin-top: 20px;
+}
+
+/* Style for the checkboxes */
+.amenities input[type="checkbox"] {
+  display: none; /* Hide the default checkbox */
+}
+
+/* Style for the custom checkbox */
+.amenities label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-right: 10px;
+  background-color: #ff6f61; /* Red color */
+  color: white; /* White text color */
+  border-radius: 3px;
+}
+
+/* Style for the custom checkbox when checked */
+.amenities input[type="checkbox"]:checked + label {
+  background-color:red; /* Lighter red color */
+}
+
+

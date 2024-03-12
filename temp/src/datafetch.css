@@ -1,0 +1,41 @@
+.button-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .datafetch {
+    top:-300px;
+    position: relative;
+  }
+  .button-container button {
+    padding: 4px 8px;
+    width:40px;
+    height:40px;
+    font-size: 0.8rem;
+    line-height: 1;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+
+  .button-container input
+  {
+    padding: 4px 8px;
+    width:40px;
+    height:40px;
+    font-size: 0.8rem;
+    line-height: 1;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+
+  .numberfetch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
