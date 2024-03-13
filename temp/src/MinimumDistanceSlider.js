@@ -25,7 +25,7 @@ const MinimumDistanceSlider = ({ value, onChange }) => {
 
   return (
     <Box sx={{ width: 300, position: 'relative' }}>
-      <span style={{ position: 'absolute', top: '25px', left: '0', right: '300', textAlign: 'left' }}>{value[0]}</span>
+      <span style={{ position: 'absolute', top: '25px', left: '0', right: '300', textAlign: 'left' }}>${value[0]}</span>
       <Slider
         getAriaLabel={() => 'Minimum distance'}
         value={value}
@@ -41,7 +41,7 @@ const MinimumDistanceSlider = ({ value, onChange }) => {
           },
         }}
       />
-      <span style={{ position: 'absolute', top: '25px', left: '0', right: '0', textAlign: 'right' }}>{value[1]}</span>
+      <span style={{ position: 'absolute', top: '25px', left: '0', right: '0', textAlign: 'right' }}>${value[1]}</span>
     </Box>
   );
 };

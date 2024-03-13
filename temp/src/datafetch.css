@@ -39,3 +39,77 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .package-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f9f9f9;
+
+  }
+  .title {
+    text-transform: capitalize;
+    margin-bottom: 5px;
+  }
+  
+  .highlight {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .package-box ul {
+    margin: 5px 0;
+    padding-left: 20px;
+  }
+  
+  .package-box li {
+    text-transform: capitalize;
+  }
+  
+
+  
+  .package-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 700px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .package-box h3 {
+    color: #333;
+  }
+  
+  .package-box p {
+    margin: 5px 0;
+  }
+  
+  .package-box.highlight {
+    background-color: #f0f8ff; /* Light blue */
+  }
+  
+  .package-box {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hotel-image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .package-details {
+    flex: 2;
+    padding-left: 10px;
+  }
+  
